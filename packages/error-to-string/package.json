@@ -1,0 +1,23 @@
+{
+  "name": "yamlify-object-error-to-string",
+  "version": "0.1.0",
+  "description": "Print error in yamlify-object with stack trace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "formatter",
+    "console",
+    "log",
+    "yaml",
+    "beauty",
+    "stringify",
+    "yamlify",
+    "error",
+    "stack",
+    "trace"
+  ],
+  "author": "Eugeny Dementev",
+  "license": "MIT"
+}
