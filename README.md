@@ -99,6 +99,12 @@ Type: `Function`
 
 Expected to return a `string` that stringified version of Error instance.
 
+##### fnToString(fn: Function)
+
+Type: `Function`
+
+Expected to return a `string` that stringified version of Function.
+
 ##### colors
 
 Type: `object`<br>
@@ -107,6 +113,7 @@ Default:
 {
   date: function (s: string): string,
   error: function (s: string): string,
+  fn: function (s: string): string,
   symbol: function (s: string): string,
   string: function (s: string): string,
   number: function (s: string): string,

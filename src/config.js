@@ -1,4 +1,5 @@
 const defaultErrorToString = require('./errorToString');
+const defaultFnToString = require('./fnToString');
 const defaultDateToString = require('./dateToString');
 const defaultColors = require('./colors');
 
@@ -14,6 +15,7 @@ module.exports = function getConfig (config = {}) {
     prefix: simpleChoice(config.prefix, defaultConfig.prefix),
     postfix: simpleChoice(config.postfix, defaultConfig.postfix),
     errorToString: config.errorToString || defaultErrorToString,
+    fnToString: config.fnToString || defaultFnToString,
     dateToString: config.dateToString || defaultDateToString,
     colors: Object.assign({}, defaultColors, config.colors),
   };

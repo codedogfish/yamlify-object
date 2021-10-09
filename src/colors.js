@@ -5,6 +5,7 @@ module.exports = {
   base: noColor,
   date: noColor,
   error: noColor,
+  fn: noColor,
   symbol: noColor,
   string: noColor,
   number: noColor,

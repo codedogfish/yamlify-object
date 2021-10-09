@@ -14,6 +14,7 @@ module.exports = function yamlifyObject (target, config) {
     postfix,
     dateToString,
     errorToString,
+    fnToString,
     indent: indentChars,
   } = getConfig(config);
 
@@ -122,6 +123,8 @@ module.exports = function yamlifyObject (target, config) {
         return colors.date(dateToString(value));
       case 'error':
         return colors.error(errorToString(value, getPrefix(indentLength, indentChars)));
+      case 'function':
+        return colors.fn(fnToString(value, getPrefix(indentLength, indentChars)));
       default:
         if (value && value.toString) {
           return value.toString();
