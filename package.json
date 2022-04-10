@@ -2,7 +2,7 @@
   "name": "yamlify-object",
   "version": "0.6.1",
   "description": "Stringify object/array with yaml syntax",
-  "main": "./dist/index.js",
+  "main": "./src/index.js",
   "engines": {
     "node": ">=4.0.0"
   },
